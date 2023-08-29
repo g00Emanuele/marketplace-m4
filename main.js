@@ -16,7 +16,7 @@ window.onload = async () => {
                     <img src="${product.imageUrl}" class="card-img-top" alt="...">
                         <h5 class="card-title">${product.name}</h5>
                         <p class="card-text">${product.brand}</p>
-                        <p class="card-text">${product.price}</p>
+                        <p class="card-text">$${product.price}</p>
                         <p class="card-text">${product.description}</p>
                         <a href="./details.html?q=${product._id}" class="btn btn-primary">Product details</a>
                         <a href="./modify.html?q=${product._id}" class="btn btn-success">Modify</a>
