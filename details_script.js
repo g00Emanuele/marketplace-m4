@@ -20,10 +20,10 @@ window.onload = async () => {
         cardContainer.innerHTML = 
              `<div class="col-3"><div class="card" style="width: 18rem;">
                     <div class="card-body">
-                    <img src="https://picsum.photos/2000" class="card-img-top" alt="...">
+                    <img src='${product.imageUrl}' class="card-img-top" alt="...">
                         <h5 class="card-title">${product.name}</h5>
                         <p class="card-text">${product.brand}</p>
-                        <p class="card-text">${product.price}</p>
+                        <p class="card-text">$${product.price}</p>
                         <p class="card-text">${product.description}</p>
                     </div>
                     </div> 
